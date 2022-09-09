@@ -16,8 +16,8 @@ export const Navegacion = () => {
             <ul className='navegacion'>
                 <Enlace route="/" texto={<GiWaterDrop/>} />
                 <Enlace route="/importancia" texto="Importancia del agua" />
-                <Enlace route="/importancia" texto="Recomendaciones para cuidar el agua" />
-                <Enlace route="/importancia" texto="Ahorra agua" />
+                <Enlace route="/recomendaciones" texto="Recomendaciones para cuidar el agua" />
+                <Enlace route="/ahorrar" texto="Ahorra agua" />
             </ul>
 
             

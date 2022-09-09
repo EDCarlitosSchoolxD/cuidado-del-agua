@@ -1,5 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
 :root{
-  --color-principal:#003785;
+  --color-principal:#25579c;
   --color-secundario: #1465bb;
   --color-terciario: #2196f3;
   --titulo:#3f85b5;
@@ -8,6 +13,7 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 html{
@@ -162,7 +168,7 @@ li{
   gap: 2rem;
   justify-content: space-evenly;
   font-size: 1.8rem;
-  color: var(--color-terciario);
+  color: var(--color-principal);
 }
 @media (min-width: 768px){
   .txtImg--informacion{
@@ -209,10 +215,11 @@ li{
 
 footer{
     background-color: var(--color-principal);
-    height: 30px;
+    min-height: 10px;
 }
 
 footer h2{
+  padding: 2rem;
   text-align: center;
   color: white;
 }

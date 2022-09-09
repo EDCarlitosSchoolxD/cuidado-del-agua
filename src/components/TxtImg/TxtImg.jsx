@@ -1,21 +1,20 @@
 import React from 'react'
-import agua1 from '../../img/agua1.jpg'
 
-export const TxtImg = () => {
+export const TxtImg = (props) => {
   return (
     <div className='txtImg container'>
-        <h1 className='txtImg--titulo'>¿Que es el cuidado del agua</h1>
+        <h1 className='txtImg--titulo'>{props.titulo}</h1>
         
         <div className='txtImg--contenido'>
             <div className='txtImg--informacion'>
-                <p>Cuando hablamos del cuidado del agua, nos referimos al uso racional del agua. Esto implica velar por la protección de las fuentes de agua limpia y consumible en nuestro planeta, procurando no contaminarla, no malbaratarla y así preservar este líquido vital no sólo para nuestra especie, sino para la vida entera en el planeta Tierra.</p>
+                <p>{props.texto1}</p>
 
-                <p>Como bien sabemos, el agua es indispensable para sostener el clima del planeta estable, para procesos vitales de todos los organismos (como la fotosíntesis) y para redistribuir determinados elementos químicos a lo largo del planeta (como el carbono).
+                <p>{props.texto2}
                 </p>
             </div>
 
             <div className='txtImg--img'>
-                <img src={agua1} alt="" />
+                <img src={props.img} alt="" />
             </div>
         </div>
         
