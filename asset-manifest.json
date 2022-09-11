@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cuidado-del-agua/static/css/main.37b9e694.css",
+    "main.js": "/cuidado-del-agua/static/js/main.0da581fe.js",
+    "static/media/energiaResponsable.jpg": "/cuidado-del-agua/static/media/energiaResponsable.5243ac29aed6659c54f8.jpg",
+    "static/media/fugasDeAgua.jpg": "/cuidado-del-agua/static/media/fugasDeAgua.310e947d06726f8f3db6.jpg",
+    "static/media/aguaReciclada.jpg": "/cuidado-del-agua/static/media/aguaReciclada.6e63d586f70f5cdd7491.jpg",
+    "static/media/agua1.jpg": "/cuidado-del-agua/static/media/agua1.71f8c9364845d16147d3.jpg",
+    "static/media/cerrarGrifos.jpg": "/cuidado-del-agua/static/media/cerrarGrifos.a90f2b8cd233eaf0374d.jpg",
+    "static/media/ecoFriendly.jpg": "/cuidado-del-agua/static/media/ecoFriendly.b709c08bc058a1e9dac9.jpg",
+    "static/media/actdespifaladora.jpg": "/cuidado-del-agua/static/media/actdespifaladora.8bb56b7db60dfafb4c1e.jpg",
+    "static/media/a2.jpg": "/cuidado-del-agua/static/media/a2.c66a343d4abdca5f7d25.jpg",
+    "static/media/undraw_beach.svg": "/cuidado-del-agua/static/media/undraw_beach.6560543b1bb9f52be512cf989970b00a.svg",
+    "index.html": "/cuidado-del-agua/index.html",
+    "main.37b9e694.css.map": "/cuidado-del-agua/static/css/main.37b9e694.css.map",
+    "main.0da581fe.js.map": "/cuidado-del-agua/static/js/main.0da581fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37b9e694.css",
+    "static/js/main.0da581fe.js"
+  ]
+}
