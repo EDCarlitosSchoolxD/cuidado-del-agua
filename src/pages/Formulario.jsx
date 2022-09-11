@@ -22,7 +22,7 @@ export const Formulario = () => {
       const pregunta7 = formulario['recomendacion'].value
 
 
-      const resultado = [pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7].map(v => v==''?0:parseInt(v));
+      const resultado = [pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7].map(v => v===''?0:parseInt(v));
 
       const aprobo =  (resultado.reduce((a,b) => a+b) / 6).toFixed(2);
 
