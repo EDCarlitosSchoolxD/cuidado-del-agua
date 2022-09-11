@@ -91,7 +91,7 @@ li{
 
 
 .navegacion--enlace:hover{
-  background-color: #266dd2;
+  background-color: #1f78d8;
   color: white;
   transition: 0.8s;
 }
@@ -300,4 +300,58 @@ footer h2{
     text-align: center;
     color: var(--titulo);
     margin-bottom: 2rem;
+}
+
+
+.form-labelInicial{
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  
+}
+
+.formInput-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+}
+
+.form-inputContainer{
+  display: grid;
+  grid-template-columns: 80% 20%;
+  gap: 3rem;
+}
+
+.form-inputText{
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    border: 1px solid #2196f3;
+}
+
+.form-label{
+  font-size: 2.4rem;
+  color: #1465bb;
+}
+.form-input{
+  align-items: flex-end;
+  width: 30px;
+}
+
+.btn-submit{
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    background-color: #25579c;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    transition: .7s;
+}
+.btn-submit:hover{
+    background-color: #1f78d8;
 }
