@@ -28,7 +28,7 @@ export const Importancia = () => {
 
         <div className='next-previous container'>
             <Previous route="/" />
-            <Next route="recomendaciones" />
+            <Next route="/recomendaciones" />
         </div>
 
 

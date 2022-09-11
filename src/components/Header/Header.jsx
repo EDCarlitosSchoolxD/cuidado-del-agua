@@ -12,7 +12,7 @@ export const Header = () => {
         </div>
 
         <div className='header--imagen'>
-            <img src={drawBeach} alt="" />
+            <img loading='lazy' src={drawBeach} alt="" />
 
         </div>
 

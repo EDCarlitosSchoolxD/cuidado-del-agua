@@ -4,7 +4,7 @@ import { Importancia } from './pages/Importancia';
 import { Recomendaciones } from './pages/Recomendaciones';
 
 import './App.css'
-import { Ahorrar } from './pages/Ahorrar';
+import { Formulario } from './pages/Formulario';
 
 
 
@@ -15,7 +15,7 @@ function App() {
         <Route index element={<Home/>} />
         <Route path='importancia' element={<Importancia />} />
         <Route path='recomendaciones' element={<Recomendaciones />} />
-        <Route path='ahorrar' element={<Ahorrar />} />
+        <Route path='form' element={<Formulario />} />
       </Routes>
     </BrowserRouter>
   );

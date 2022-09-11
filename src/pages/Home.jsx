@@ -13,28 +13,17 @@ const txtImg = {
   img: agua1
 }
 
-
-
-
-
 function Home() {
   return (
     <>
         <Navegacion />
         <Header />
         <TxtImg  titulo="¿Que es el cuidado del agua?" texto1={txtImg.texto1} texto2={txtImg.texto2} img={txtImg.img}/>
-
         <div className='next-previous container'>
             <Next route="importancia" />
-        </div>
-
-        
+        </div>        
         <Footer />
-
-
-
     </>
   )
 }
-
 export {Home};

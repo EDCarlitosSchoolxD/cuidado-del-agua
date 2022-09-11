@@ -1,7 +1,5 @@
-import React, { useState } from 'react'
 import {GiWaterDrop} from 'react-icons/gi';
 import { Enlace } from '../Enlace/Enlace';
-import {GrMenu} from 'react-icons/gr'
  
 
 export const Navegacion = () => {
@@ -17,7 +15,7 @@ export const Navegacion = () => {
                 <Enlace route="/" texto={<GiWaterDrop/>} />
                 <Enlace route="/importancia" texto="Importancia del agua" />
                 <Enlace route="/recomendaciones" texto="Recomendaciones para cuidar el agua" />
-                <Enlace route="/ahorrar" texto="Ahorra agua" />
+                <Enlace route="/form" texto="Formulario" />
             </ul>
 
             

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { ImageModal } from '../ImageModal/ImageModal'
 export const TxtImg = (props) => {
   return (
     <div className='txtImg container'>
@@ -13,9 +13,9 @@ export const TxtImg = (props) => {
                 </p>
             </div>
 
-            <div className='txtImg--img'>
-                <img src={props.img} alt="" />
-            </div>
+
+            <ImageModal class="txtImg--img" img={props.img} />
+
         </div>
         
 
